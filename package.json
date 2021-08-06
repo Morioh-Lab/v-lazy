@@ -1,0 +1,31 @@
+{
+  "name": "@morioh/v-lazy",
+  "description": "Lazy image loading directive for Vue.js",
+  "version": "1.0.1",
+  "author": "Morioh-Lab",
+  "main": "./index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack --progress --watch --colors",
+    "prod": "cross-env NODE_ENV=production webpack -p --watch --progress --colors",
+    "start": "node ./dist/app.js",
+    "pub": "npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Morioh-Lab/v-lazy.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Morioh-Lab/v-lazy/issues"
+  },
+  "homepage": "https://github.com/Morioh-Lab/v-lazy",
+  "keywords": [
+    "lazy",
+    "v-lazy",
+    "vue lazy",
+    "vue lazy directive"
+  ],
+  "peerDependencies": {
+    "vue": ">=3.1.1"
+  }
+}
